@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -23,6 +24,55 @@ import androidx.compose.ui.text.style.LineHeightStyle
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
+@Composable
+fun ExerciseLayout(modifier: Modifier){
+    Column(modifier = modifier) {
+        Row(
+            modifier = Modifier
+                .weight(1f)
+                .fillMaxSize()
+                .background(Color.Cyan),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.Center
+        ) {
+            Text("Ejemplo 1", fontWeight = FontWeight.Bold)
+        }
+        Row(
+            modifier = Modifier
+                .weight(1f)
+                .fillMaxSize()
+        ) {
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxSize()
+                    .background(Color.Red),
+                contentAlignment = Alignment.Center
+            ) {
+                Text("Ejemplo 2", fontWeight = FontWeight.Bold)
+            }
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxSize()
+                    .background(Color.Green),
+                contentAlignment = Alignment.Center
+            ) {
+                Text("Ejemplo 3", fontWeight = FontWeight.Bold)
+            }
+        }
+        Row(
+            modifier = Modifier
+                .weight(1f)
+                .fillMaxSize()
+                .background(Color.Magenta),
+            verticalAlignment = Alignment.Bottom,
+            horizontalArrangement = Arrangement.Center
+        ) {
+            Text("Ejemplo 4", fontWeight = FontWeight.Bold)
+        }
+    }
+}
 @Composable
 
 fun MyBox() {

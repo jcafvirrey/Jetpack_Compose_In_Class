@@ -13,6 +13,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.composecatalogclass.ui.theme.ComposeCatalogClassTheme
+import com.example.composecatalogclass.uicomponents.ExerciseLayout
 import com.example.composecatalogclass.uicomponents.MyBox
 import com.example.composecatalogclass.uicomponents.MyColumn
 import com.example.composecatalogclass.uicomponents.MyComplexLayout
@@ -28,7 +29,8 @@ class MainActivity : ComponentActivity() {
                     //MyBox()
                     //MyColumn(Modifier.padding(innerPadding))
                     //MyRow(Modifier.padding(innerPadding))
-                    MyComplexLayout(Modifier.padding(innerPadding))
+                    //MyComplexLayout(Modifier.padding(innerPadding))
+                    ExerciseLayout(Modifier.padding(innerPadding))
                 }
             }
         }
