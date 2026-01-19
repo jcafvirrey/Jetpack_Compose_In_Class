@@ -14,7 +14,7 @@ import androidx.constraintlayout.compose.ConstraintLayout
 
 @Composable
 fun MyBasicConstraintLayout(modifier: Modifier){
-    ConstraintLayout(modifier = modifier.fillMaxSize()) {
+    ConstraintLayout(modifier = modifier) {
         val(boxRed, boxGray, boxMagenta, boxGreen, boxYellow) = createRefs()
         Box(Modifier.size(150.dp).background(Color.Red).constrainAs(boxRed){
             top.linkTo(boxYellow.bottom)
