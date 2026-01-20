@@ -1,2 +1,28 @@
-# Jetpack_Compose_In_Class
-Repository JetPack Compose in Class
+# \# User Interface Development · CFGS DAM  
+
+# \*\*IES VIRREY MORCILLO — Villarrobledo (Albacete)\*\*  
+
+# \*\*Instructor:\*\* Juan Carlos Alumbreros · jcaf01@iesvirreymorcillo.es
+
+# 
+
+# > This repository is the \*\*official workspace\*\* dedicated to \*\*Jetpack Compose module\*\*. We will host projects, labs, support materials, and the delivery \& assessment guidelines here.
+
+# 
+
+# \## 🎯 Repository Objectives
+
+# \- Centralize the module’s code viewed in class.    
+
+# 
+
+# 
+
+# \## 🧭 Repository's additions. 
+
+# \- \*\*20/01/2026\*\*: Exercises done in class 20-01-2025. Layouts: Basics and ConstraintLayout. 
+
+
+
+# 
+
