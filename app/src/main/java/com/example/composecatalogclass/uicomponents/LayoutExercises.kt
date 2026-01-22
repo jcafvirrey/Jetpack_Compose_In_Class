@@ -79,11 +79,12 @@ fun MainLayout() {
     }
 }
 
-@Preview(showBackground = true, widthDp = 360, heightDp = 640)
+
 @Composable
 fun MainLayoutPreview() {
     MainLayout()
 }
+
 @Composable
 fun ConstraintMainLayout() {
     ConstraintLayout(modifier = Modifier.background(Color.White)) {
@@ -167,7 +168,7 @@ fun ConstraintMainLayout() {
     }
 }
 
-
+@Preview(showBackground = true, widthDp = 360, heightDp = 640)
 @Composable
 fun ConstraintMainLayoutPreview() {
     ConstraintMainLayout()

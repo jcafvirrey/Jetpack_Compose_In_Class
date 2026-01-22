@@ -1,6 +1,6 @@
-# \# User Interface Development · CFGS DAM  
+# \# User Interface Development · CFGS DAM
 
-# \*\*IES VIRREY MORCILLO — Villarrobledo (Albacete)\*\*  
+# \*\*IES VIRREY MORCILLO — Villarrobledo (Albacete)\*\*
 
 # \*\*Instructor:\*\* Juan Carlos Alumbreros · jcaf01@iesvirreymorcillo.es
 
@@ -12,17 +12,15 @@
 
 # \## 🎯 Repository Objectives
 
-# \- Centralize the module’s code viewed in class.    
+# \- Centralize the module’s code viewed in class.
 
 # 
 
 # 
 
-# \## 🧭 Repository's additions. 
+# \## 🧭 Repository's additions.
 
-# \- \*\*20/01/2026\*\*: Exercises done in class 20-01-2025. Layouts: Basics and ConstraintLayout. 
+# \- \*\*20/01/2026\*\*: Exercises done in class 20-01-2025. Layouts: Basics and ConstraintLayout.
 
-
-
-# 
+# \- \*\*22/01/2026\*\*: Compose State explanation. 
 
