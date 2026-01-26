@@ -12,7 +12,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.composecatalogclass.state.ModeSelector
 import com.example.composecatalogclass.state.MyState
+import com.example.composecatalogclass.state.UserStatusScreen
 import com.example.composecatalogclass.ui.theme.ComposeCatalogClassTheme
 import com.example.composecatalogclass.uicomponents.ConstraintAdvanced
 import com.example.composecatalogclass.uicomponents.ExerciseLayout
@@ -36,7 +38,9 @@ class MainActivity : ComponentActivity() {
                     //ExerciseLayout(Modifier.padding(innerPadding))
                     //MyBasicConstraintLayout(Modifier.padding(innerPadding))
                     //ConstraintAdvanced(Modifier.padding(innerPadding))
-                    MyState(Modifier.padding(innerPadding))
+                    //MyState(Modifier.padding(innerPadding))
+                    //ModeSelector(Modifier.padding(innerPadding))
+                    UserStatusScreen(Modifier.padding(innerPadding))
                 }
             }
         }
