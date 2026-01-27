@@ -34,5 +34,6 @@
 **20/01/2026**: Exercises done in class 20-01-2025. Layouts: Basics and ConstraintLayout.
 
 **26/01/2026**: Solutions exercises about state.The solution is in ExercisesState.kt
+**27/01/2026**: Code from Module 4 document about Text and Textfield component
 
 
