@@ -27,9 +27,12 @@
 
 # \## 🧭 Repository's additions.
 
-# \- \*\*20/01/2026\*\*: Exercises done in class 20-01-2025. Layouts: Basics and ConstraintLayout.
+**20/01/2026**: Exercises done in class 20-01-2025. Layouts: Basics and ConstraintLayout.
 
-# \- \*\*22/01/2026\*\*: Compose State explanation. 
-**20/01/2026**: Exercises done in class 20-01-2025. Layouts: Basics and ConstraintLayout. 
+**22/01/2026**: Compose State explanation. 
+
+**20/01/2026**: Exercises done in class 20-01-2025. Layouts: Basics and ConstraintLayout.
+
+**26/01/2026**: Solutions exercises about state.The solution is in ExercisesState.kt
 
 
