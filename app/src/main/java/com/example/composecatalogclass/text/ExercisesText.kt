@@ -60,7 +60,7 @@ fun ValidatedInput(modifier: Modifier = Modifier) {
         TextField(
             value = username,
             onValueChange = { newValue ->
-                // ✅ La validación se realiza dentro de onValueChange (requisito del enunciado).
+                // La validación se realiza dentro de onValueChange (requisito del enunciado).
 
                 // 1) Actualizamos el estado principal
                 username = newValue
