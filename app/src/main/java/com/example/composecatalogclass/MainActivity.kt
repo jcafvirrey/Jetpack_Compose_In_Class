@@ -11,13 +11,17 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.layout.ModifierLocalBeyondBoundsLayout
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.composecatalogclass.state.ModeSelector
 import com.example.composecatalogclass.state.MyState
 import com.example.composecatalogclass.state.UserStatusScreen
+import com.example.composecatalogclass.text.MyParentForm
 import com.example.composecatalogclass.text.MyTextField
 import com.example.composecatalogclass.text.MyTextFieldParent
 import com.example.composecatalogclass.text.MyTexts
+import com.example.composecatalogclass.text.SimpleForm
+import com.example.composecatalogclass.text.ValidatedInput
 import com.example.composecatalogclass.ui.theme.ComposeCatalogClassTheme
 import com.example.composecatalogclass.uicomponents.ConstraintAdvanced
 import com.example.composecatalogclass.uicomponents.ExerciseLayout
@@ -46,7 +50,10 @@ class MainActivity : ComponentActivity() {
                     //UserStatusScreen(Modifier.padding(innerPadding))
                     //MyTexts(Modifier.padding(innerPadding))
                     //MyTextField(Modifier.padding(innerPadding))
-                    MyTextFieldParent(Modifier.padding(innerPadding))
+                    //MyTextFieldParent(Modifier.padding(innerPadding))
+                    //SimpleForm(Modifier.padding(innerPadding))
+                    MyParentForm(Modifier.padding(innerPadding))
+                    //ValidatedInput(Modifier.padding(innerPadding))
                 }
             }
         }
