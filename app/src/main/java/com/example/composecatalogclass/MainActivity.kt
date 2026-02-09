@@ -13,6 +13,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ModifierLocalBeyondBoundsLayout
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.composecatalogclass.buttons.ButtonStyleSelector
+import com.example.composecatalogclass.buttons.ConfirmAction
+import com.example.composecatalogclass.buttons.MyButtons
 import com.example.composecatalogclass.state.ModeSelector
 import com.example.composecatalogclass.state.MyState
 import com.example.composecatalogclass.state.UserStatusScreen
@@ -51,9 +54,12 @@ class MainActivity : ComponentActivity() {
                     //MyTexts(Modifier.padding(innerPadding))
                     //MyTextField(Modifier.padding(innerPadding))
                     //MyTextFieldParent(Modifier.padding(innerPadding))
+                    //MyButtons(Modifier.padding(innerPadding))
                     //SimpleForm(Modifier.padding(innerPadding))
-                    MyParentForm(Modifier.padding(innerPadding))
+                    //MyParentForm(Modifier.padding(innerPadding))
                     //ValidatedInput(Modifier.padding(innerPadding))
+                    //ConfirmAction(Modifier.padding(innerPadding))
+                    ButtonStyleSelector(Modifier.padding(innerPadding))
                 }
             }
         }

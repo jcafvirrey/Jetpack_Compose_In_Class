@@ -36,5 +36,6 @@
 **26/01/2026**: Solutions exercises about state.The solution is in ExercisesState.kt
 **27/01/2026**: Code from Module 4 document about Text and Textfield component
 **29/01/2026**: Solutions Exercises Module 4. Suggest about use Elevate Hosting in solution 2
+**9/02/2026**: Solutions Exercises Module 5. Buttons explanations and buttons exercises
 
 
