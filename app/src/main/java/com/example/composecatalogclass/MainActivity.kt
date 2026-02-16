@@ -16,6 +16,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.composecatalogclass.buttons.ButtonStyleSelector
 import com.example.composecatalogclass.buttons.ConfirmAction
 import com.example.composecatalogclass.buttons.MyButtons
+import com.example.composecatalogclass.imageandicons.MyImage
+import com.example.composecatalogclass.imageandicons.MyNetworkImage
+import com.example.composecatalogclass.screenexercise.SecurityScreen
 import com.example.composecatalogclass.state.ModeSelector
 import com.example.composecatalogclass.state.MyState
 import com.example.composecatalogclass.state.UserStatusScreen
@@ -59,7 +62,11 @@ class MainActivity : ComponentActivity() {
                     //MyParentForm(Modifier.padding(innerPadding))
                     //ValidatedInput(Modifier.padding(innerPadding))
                     //ConfirmAction(Modifier.padding(innerPadding))
-                    ButtonStyleSelector(Modifier.padding(innerPadding))
+                    //ButtonStyleSelector(Modifier.padding(innerPadding))
+                    //MyImage(Modifier.padding(innerPadding))
+                    //MyNetworkImage(Modifier.padding(innerPadding))
+                    //UiSeguridadSimple(Modifier.padding(innerPadding))
+                    SecurityScreen(Modifier.padding(innerPadding))
                 }
             }
         }
