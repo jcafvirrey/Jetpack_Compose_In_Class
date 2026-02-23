@@ -18,6 +18,8 @@ import com.example.composecatalogclass.buttons.ConfirmAction
 import com.example.composecatalogclass.buttons.MyButtons
 import com.example.composecatalogclass.imageandicons.MyImage
 import com.example.composecatalogclass.imageandicons.MyNetworkImage
+import com.example.composecatalogclass.progress.MyProgress
+import com.example.composecatalogclass.progress.MyProgressAdvanced
 import com.example.composecatalogclass.screenexercise.SecurityScreen
 import com.example.composecatalogclass.state.ModeSelector
 import com.example.composecatalogclass.state.MyState
@@ -66,7 +68,8 @@ class MainActivity : ComponentActivity() {
                     //MyImage(Modifier.padding(innerPadding))
                     //MyNetworkImage(Modifier.padding(innerPadding))
                     //UiSeguridadSimple(Modifier.padding(innerPadding))
-                    SecurityScreen(Modifier.padding(innerPadding))
+                    //SecurityScreen(Modifier.padding(innerPadding))
+                    MyProgressAdvanced(Modifier.padding(innerPadding))
                 }
             }
         }
