@@ -37,8 +37,9 @@
 **27/01/2026**: Code from Module 4 document about Text and Textfield component
 **29/01/2026**: Solutions Exercises Module 4. Suggest about use Elevate Hosting in solution 2
 **9/02/2026**: Solutions Exercises Module 5. Buttons explanations and buttons exercises
-**16/02/2026**: Solutions Alamr exercise
-**24/02/2026**: Class about ProgressBar
+**16/02/2026**: Solutions Alarm exercise
+**23/02/2026**: Class about ProgressBar
+**24/02/2026**: Class about Lottie library
 
 
 
