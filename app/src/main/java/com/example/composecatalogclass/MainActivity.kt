@@ -19,6 +19,7 @@ import com.example.composecatalogclass.buttons.MyButtons
 import com.example.composecatalogclass.control.MyCheckBox
 import com.example.composecatalogclass.control.MyCheckBoxAdvanced
 import com.example.composecatalogclass.control.MySwitch
+import com.example.composecatalogclass.control.MyTriStateCheckBox
 import com.example.composecatalogclass.imageandicons.MyImage
 import com.example.composecatalogclass.imageandicons.MyNetworkImage
 import com.example.composecatalogclass.progress.MyProgress
@@ -77,7 +78,8 @@ class MainActivity : ComponentActivity() {
                     //ProgressAnimation(Modifier.padding(innerPadding))
                     //MySwitch(Modifier.padding(innerPadding))
                     //MyCheckBox(Modifier.padding(innerPadding))
-                    MyCheckBoxAdvanced(Modifier.padding(innerPadding))
+                    //MyCheckBoxAdvanced(Modifier.padding(innerPadding))
+                    MyTriStateCheckBox(Modifier.padding(innerPadding))
                 }
             }
         }

@@ -41,6 +41,7 @@
 **23/02/2026**: Class about ProgressBar
 **24/02/2026**: Class about Lottie library
 **02/03/2026**: Class about Checkbox and Advanced Checkbox
+**03/03/2026**: Component TriState CheckBox.
 
 
 
