@@ -40,6 +40,7 @@
 **16/02/2026**: Solutions Alarm exercise
 **23/02/2026**: Class about ProgressBar
 **24/02/2026**: Class about Lottie library
+**02/03/2026**: Class about Checkbox and Advanced Checkbox
 
 
 
