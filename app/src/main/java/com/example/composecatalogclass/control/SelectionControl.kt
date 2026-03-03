@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.CheckboxDefaults
 import androidx.compose.material3.Icon
+import androidx.compose.material3.RadioButton
+import androidx.compose.material3.RadioButtonDefaults
 import androidx.compose.material3.Switch
 import androidx.compose.material3.SwitchDefaults
 import androidx.compose.material3.Text
@@ -198,5 +200,54 @@ fun MyTriStateCheckBox(modifier: Modifier = Modifier) {
             Text("Ejemplo1")
         }
     }
+}
+
+@Composable
+fun MyRadioButton(modifier: Modifier = Modifier) {
+    var state: Boolean by remember { mutableStateOf(true) }
+    Row(verticalAlignment = Alignment.CenterVertically){
+        RadioButton(modifier = modifier,
+            selected = state,
+            onClick = {state = true},
+            enabled = true,
+            colors = RadioButtonDefaults.colors(
+                selectedColor = Color.Red,
+                unselectedColor = Color.Yellow,
+                disabledSelectedColor = Color.Green,
+                disabledUnselectedColor = Color.Magenta
+            ))
+        Text("Ejemplo1")
+    }
+}
+
+@Composable
+fun MyRadioButtonList(modifier: Modifier = Modifier) {
+    var selectedName: String by remember { mutableStateOf("") }
+
+    Column(modifier = modifier){
+        RadioButtonComponent("Alfonso",selectedName = selectedName) {selectedName = it }
+        RadioButtonComponent("Adrian",selectedName = selectedName) {selectedName = it }
+        RadioButtonComponent("Pablo",selectedName = selectedName) {selectedName = it }
+        RadioButtonComponent("Angel",selectedName = selectedName) {selectedName = it }
+    }
+}
+
+@Composable
+fun RadioButtonComponent(
+    name: String, 
+    selectedName: String,
+    onItemSelected: (String) ->Unit
+    ) {
+    Row(verticalAlignment = Alignment.CenterVertically,
+        modifier = Modifier.clickable(onClick = {onItemSelected(name)} )
+        ){
+        RadioButton(
+            selected = (name == selectedName),
+            onClick = {onItemSelected(name)},
+            enabled = true,
+            )
+        Text(name)
+    }
+    
 }
 

@@ -18,6 +18,8 @@ import com.example.composecatalogclass.buttons.ConfirmAction
 import com.example.composecatalogclass.buttons.MyButtons
 import com.example.composecatalogclass.control.MyCheckBox
 import com.example.composecatalogclass.control.MyCheckBoxAdvanced
+import com.example.composecatalogclass.control.MyRadioButton
+import com.example.composecatalogclass.control.MyRadioButtonList
 import com.example.composecatalogclass.control.MySwitch
 import com.example.composecatalogclass.control.MyTriStateCheckBox
 import com.example.composecatalogclass.imageandicons.MyImage
@@ -79,7 +81,9 @@ class MainActivity : ComponentActivity() {
                     //MySwitch(Modifier.padding(innerPadding))
                     //MyCheckBox(Modifier.padding(innerPadding))
                     //MyCheckBoxAdvanced(Modifier.padding(innerPadding))
-                    MyTriStateCheckBox(Modifier.padding(innerPadding))
+                    //MyTriStateCheckBox(Modifier.padding(innerPadding))
+                    //MyRadioButton(Modifier.padding(innerPadding))
+                    MyRadioButtonList(Modifier.padding(innerPadding))
                 }
             }
         }
