@@ -1,5 +1,6 @@
 package com.example.composecatalogclass
 
+import NotificationSoundScreen
 import android.content.res.Configuration
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -83,7 +84,9 @@ class MainActivity : ComponentActivity() {
                     //MyCheckBoxAdvanced(Modifier.padding(innerPadding))
                     //MyTriStateCheckBox(Modifier.padding(innerPadding))
                     //MyRadioButton(Modifier.padding(innerPadding))
-                    MyRadioButtonList(Modifier.padding(innerPadding))
+                    //MyRadioButtonList(Modifier.padding(innerPadding))
+                    NotificationSoundScreen(Modifier.padding(innerPadding))
+
                 }
             }
         }

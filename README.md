@@ -43,6 +43,7 @@
 **02/03/2026**: Class about Checkbox and Advanced Checkbox
 **03/03/2026**: Component TriState CheckBox.
 **03/03/2026**: Component RadioButton
+**05/03/2026**: Solution exercisee 8.1 Sounds screen
 
 
 
